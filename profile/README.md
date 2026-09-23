@@ -37,7 +37,7 @@
 
 **Real-time:** Node.js · Socket.IO · Redis
 
-**Data:** PostgreSQL · Prisma
+**Data:** PostgreSQL · Drizzle
 
 ---
 
