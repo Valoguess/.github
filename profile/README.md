@@ -1,63 +1,38 @@
 # 🎮 ValoGuess
 
-<p align="center">
-  <strong>A real-time multiplayer Valorant guessing game.</strong>
-</p>
+> A real-time multiplayer Valorant guessing game.
 
-<p align="center">
-  Test your Valorant knowledge, challenge your friends, and see who can guess the answer first.
-</p>
+[Play Now](https://valoguess.fun) ·
+[Web App](https://github.com/valoguess/valoguess) ·
+[Socket Server](https://github.com/valoguess/valoguess-socket-server)
 
-<p align="center">
-  🎮 <a href="https://valoguess.fun">Play ValoGuess</a>
-  ·
-  <a href="https://github.com/NHeroOP">GitHub</a>
-</p>
+![Gameplay screenshot](https://i.postimg.cc/pX519YmX/image.png)
 
-![ValoGuess](https://i.ibb.co/HpDPMcW0/Screenshot-20260820-201245.png)
+## 🎯 What is ValoGuess?
 
----
+ValoGuess is a real-time 1v1 tactical deduction web game inspired by the classic "Guess Who?", adapted for the Valorant universe. Two players face off on an interactive board of 29 Valorant agents (excluding Hush, the new agent), ask targeted questions to eliminate possibilities, and race to deduce the opponent's secret agent.
 
-## 🎯 Features
+## ✨ Features
 
-- 🎮 **Real-time multiplayer** — Play guessing games with other players.
-- 👥 **Game rooms** — Create or join rooms and invite your friends.
-- ⚡ **Live game updates** — Player actions and game state are synchronized in real time.
-- 🧠 **Valorant guessing challenges** — Test your knowledge of agents, maps, weapons, and more.
-- 🏆 **Scoring & competition** — Compete for the highest score.
-- 📊 **Player statistics** — Track your performance and game history.
-- 👤 **Profiles & friends** — Build your profile and play with your friends.
-- 🔄 **More game modes and features coming soon.**
-
----
+- Real-time multiplayer matches
+- Party creation and friend invites
+- Live game-state synchronization
+- Player profiles and friends
+- Game history
 
 ## 🛠️ Built With
 
-**Web:** Next.js · React · TypeScript · Tailwind CSS
+Next.js · TypeScript · Socket.IO · Redis · PostgreSQL · Drizzle
 
-**Real-time:** Node.js · Socket.IO · Redis
+## 🏗️ Architecture
 
-**Data:** PostgreSQL · Drizzle
+ValoGuess consists of two applications:
 
----
+- [Web app](https://github.com/valoguess/valoguess) — UI, authentication, and persistent data
+- [Socket server](https://github.com/valoguess/valoguess-socket-server) — real-time communication and game state
 
-## 📂 Project
-
-ValoGuess is split into two main repositories:
-
-- **[ValoGuess Web](https://github.com/valoguess/valoguess)** — Next.js web application
-- **[ValoGuess Socket Server](https://github.com/valoguess/valoguess-socket-server)** — Real-time multiplayer server
-
----
+See each repository's README for technical details.
 
 ## 🤝 Contributing
 
-ValoGuess is a public project and contributions are welcome.
-
-If you have an idea, find a bug, or want to improve the game, feel free to open an issue or submit a pull request.
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/NHeroOP">Neerav Gupta</a>
-</p>
+Issues, ideas, and pull requests are welcome.
