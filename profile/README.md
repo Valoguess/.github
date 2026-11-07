@@ -6,7 +6,7 @@
 [Web App](https://github.com/valoguess/valoguess) ·
 [Socket Server](https://github.com/valoguess/valoguess-socket-server)
 
-![Gameplay screenshot](https://i.postimg.cc/pX519YmX/image.png)
+![Gameplay screenshot](https://valoguess.fun/showcase/game.webp)
 
 ## 🎯 What is ValoGuess?
 
